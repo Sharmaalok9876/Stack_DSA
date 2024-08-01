@@ -1,0 +1,27 @@
+//Basic implementation in java
+import java.util.*;
+public class P1 {
+    public static void main(String args[]) {
+    //   int[] arr = new int[5];
+    // USE STL stack
+    Stack<Integer> st = new Stack<>();
+    st.push(1);
+    st.push(23);
+    st.push(90);
+    st.push(5);
+    //peek
+    System.out.println(st.peek());
+    System.out.println(st);
+    st.pop();
+    System.out.println(st);
+    System.out.println("The size of stack is:" +st.size());
+    
+    System.out.println(st.isEmpty());
+    
+    // while(st.size()>2){
+    //     st.pop();
+    // }
+    // System.out.println(st.peek());
+    // System.out.println(st);
+    }
+}
